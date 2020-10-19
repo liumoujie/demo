@@ -1,0 +1,14 @@
+/.idea/
+.classpath
+.gitignore
+.project
+.settings/
+target/
+*/target/
+.fortify/
+fortify.fpr
+fortify.log
+fortify_FortifySupport.log
+fortify DeveloperWorkbook.pdf
+.LOG_HOME_IS_UNDEFINED/
+cb-approval-service.iml

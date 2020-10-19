@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: user
+  cloud:
+    config:
+      username: user
+      password: yourPWD
+      discovery:
+        enabled: true
+        service-id: config
+server:
+  port: 8001
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

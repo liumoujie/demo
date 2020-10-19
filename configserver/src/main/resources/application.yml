@@ -1,0 +1,27 @@
+spring:
+  security:
+    user:
+      name: user
+      password: '{cipher}6876d3cc3bdb321c342fc40a9ea00382b11245a54d8ed5aabd43cf03f6537078'
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/liumoujie/config.git
+          default-label: master
+          username: liumoujie@live.com
+          password: Lmj@25674959
+          clone-on-start: false
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
